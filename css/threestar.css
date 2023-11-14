@@ -9,11 +9,23 @@
   --bs-secondary-bg-subtle: #fbebc4;
   --bs-primary-border-subtle: #d99e14;
   --bs-secondary-border-subtle: #fbebc4;
-
 }
-
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-active-bg: var(--bs-primary-bg-subtle);
+  --bs-btn-active-border-color: var(--bs-primary-bg-subtle);
+  --bs-btn-disabled-color: var(--bs-primary-bg-subtle);
+  --bs-btn-disabled-border-color: var(--bs-primary-bg-subtle);
+}
+.btn-primary{
+  --bs-btn-bg: var(--bs-primary);
+}
 
 .banner{
   background: white url(../images/main-banner.jpg) no-repeat center;
+  background-size: cover;
 }
-
